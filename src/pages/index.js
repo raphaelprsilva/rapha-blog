@@ -7,7 +7,6 @@ import PostItem from '../components/PostItem/index';
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Home</h1>
     <PostItem
       slug="/about/"
       category="Misc"
