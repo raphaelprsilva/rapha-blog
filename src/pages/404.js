@@ -1,7 +1,7 @@
-import * as React from "react"
+import * as React from 'react';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '../components/Layout';
+import Seo from '../components/seo';
 
 const NotFoundPage = () => (
   <Layout>
@@ -9,6 +9,6 @@ const NotFoundPage = () => (
     <h1>404</h1>
     <p>Ops... Não tem nada aqui</p>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;
