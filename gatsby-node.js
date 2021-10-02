@@ -1,23 +1,21 @@
-const { createFilePath } = require('gatsby-source-filesystem');
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 // To add the slug field to each post
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-
-  // you only want to operate on `Mdx` nodes. If you had content from a
-  // remote CMS you could also check to see if the parent node was a
-  // `File` node here
-  if (node.internal.type === 'Mdx') {
-    const slug = createFilePath({ node, getNode });
-
-    createNodeField({
-      // Name of the field you are adding
-      name: 'slug',
-      // Individual MDX node
+  // Ensures we are processing only markdown files
+  if (node.internal.type === 'MarkdownRemark') {
+    // Use `createFilePath` to turn markdown files in our `pages` directory into `pages/slug`
+    const slug = createFilePath({
       node,
-      // Generated value based on filepath with "blog" prefix. you
-      // don't need a separating "/" before the value because
-      // createFilePath returns a path with the leading "/".
+      getNode,
+      basePath: 'pages',
+    });
+
+    // Creates new query'able field with name of 'slug'
+    createNodeField({
+      node,
+      name: 'slug',
       value: `/${slug.slice(12)}`,
     });
   }
