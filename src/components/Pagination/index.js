@@ -12,11 +12,11 @@ const Pagination = ({
   nextPage,
 }) => (
   <S.PaginationWrapper>
-    {!isFirstPage && <Link to={previousPage}>pagina anterior</Link>}
+    {!isFirstPage && <Link to={previousPage}>← pagina anterior</Link>}
     <p>
       {currentPage} de {numPages}
     </p>
-    {!isLastPage && <Link to={nextPage}>proxima pagina</Link>}
+    {!isLastPage && <Link to={nextPage}>proxima pagina →</Link>}
   </S.PaginationWrapper>
 );
 
