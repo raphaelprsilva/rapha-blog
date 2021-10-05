@@ -38,7 +38,8 @@ export default function HTML(props) {
                   localStorage.setItem('theme', newTheme);
                 } catch (err) {}
               }
-              setDisplay(preferredDisplay || 'dark');
+
+              setTheme(preferredTheme || 'dark');
 
               window.__onDisplayChange = function() {};
               function setDisplay(newDisplay) {
@@ -47,22 +48,28 @@ export default function HTML(props) {
                 document.body.id = newDisplay;
                 window.__onDisplayChange(newDisplay);
               }
+
               var preferredDisplay;
               try {
                 preferredDisplay = localStorage.getItem('display');
               } catch (err) { }
+
               window.__setPreferredDisplay = function(newDisplay) {
                 setDisplay(newDisplay);
                 try {
                   localStorage.setItem('display', newDisplay);
                 } catch (err) {}
               }
+
               setDisplay(preferredDisplay || 'list');
             })();
           `,
           }}
         />
         {props.preBodyComponents}
+        <noscript key="noscript" id="gatsby-noscript">
+          This app works best with JavaScript enabled.
+        </noscript>
         <div
           key={`body`}
           id="___gatsby"
