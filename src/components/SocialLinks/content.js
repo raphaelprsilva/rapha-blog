@@ -5,7 +5,7 @@ const links = [
   },
   {
     label: 'Linkedin',
-    url: 'https://linkedin.com/raphaelprsilva',
+    url: 'https://www.linkedin.com/in/raphael-pereira-silva/',
   },
   {
     label: 'Youtube',
