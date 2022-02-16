@@ -16,7 +16,7 @@ const postsQuery = `{
           description
           title
         }
-        excerpt(pruneLength: 5000)
+        excerpt(pruneLenght: 5000)
       }
     }
   }
