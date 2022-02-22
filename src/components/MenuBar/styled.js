@@ -78,9 +78,9 @@ export const MenuBarItem = styled.span`
     }
   `}
   ${media.lessThan('large')`
-    height: 3.2rem;
+    height: 1.8rem;
     padding: .9rem;
     position: relative;
-    width: 3.2rem;
+    width: 1.8rem;
   `}
 `;
