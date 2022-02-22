@@ -12,7 +12,7 @@ const Search = ({ algolia }) => {
   return (
     <S.SearchWrapper>
       <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
-        <SearchBox autoFocus translations={{ placeholder: 'Pesquisar...' }} />
+        <SearchBox autoFocus translations={{ placeholder: 'Pesquisar aqui...' }} />
         <Stats
           translations={{
             stats(nbHits, timeSpentMs) {
