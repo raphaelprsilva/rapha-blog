@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import * as S from './styled';
 
+import getThemeColor from '../../utils/getThemeColor';
+
 const Pagination = ({
   isFirstPage,
   isLastPage,
@@ -17,7 +19,7 @@ const Pagination = ({
         to={previousPage}
         cover
         direction="left"
-        bg="#16202c"
+        bg={getThemeColor()}
         duration={0.6}
       >
         ← pagina anterior
