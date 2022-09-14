@@ -1,0 +1,6 @@
+details[open] summary {
+  padding-left: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--borders);
+  margin-bottom: 0.25rem;
+}
