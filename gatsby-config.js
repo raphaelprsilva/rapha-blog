@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Raphael Silva`,
     position: `Desenvolvedor Web`,
-    description: `Um Blog sobre desenvolvimento e outras coisas mais.`,
+    description: `Um Blog sobre desenvolvimento web e outras coisas mais.`,
     author: `@raphaelprsilva`,
     siteUrl: `https://elraphael.com.br`,
   },
