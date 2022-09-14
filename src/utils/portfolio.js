@@ -1,17 +1,10 @@
 const vanillaJavascript = [
   {
-    projectName: 'Pixels Art Project',
+    projectName: 'Madruga Shopping Cart',
     projectDescription:
-      'Projeto de arte em pixels, onde a pessoa usuária consegue "pintar", selecionando as cores e o tamanho da tela.',
-    siteLink: 'https://pixels-art.elraphael.com.br/',
-    githubLink: 'https://github.com/raphaelprsilva/pixel-art',
-  },
-  {
-    projectName: 'Meme Generator',
-    projectDescription:
-      'Projeto de um simples gerador de memes, na qual é possível carregar uma imagem ou selecioná-la.',
-    siteLink: 'https://meme-generator.elraphael.com.br/',
-    githubLink: 'https://github.com/raphaelprsilva/meme-generator',
+      'Projeto na qual a pessoa usuária pode adicionar items ao carrinho e a soma dos valores é computada',
+    siteLink: 'https://madruga-shopping.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/shopping-cart',
   },
   {
     projectName: 'Trybewarts',
@@ -28,6 +21,20 @@ const vanillaJavascript = [
       'https://github.com/raphaelprsilva/dio-challanges/tree/main/02-modulo-javascript/memory-game',
   },
   {
+    projectName: 'Pixels Art Project',
+    projectDescription:
+      'Projeto de arte em pixels, onde a pessoa usuária consegue "pintar", selecionando as cores e o tamanho da tela.',
+    siteLink: 'https://pixels-art.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/pixel-art',
+  },
+  {
+    projectName: 'Meme Generator',
+    projectDescription:
+      'Projeto de um simples gerador de memes, na qual é possível carregar uma imagem ou selecioná-la.',
+    siteLink: 'https://meme-generator.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/meme-generator',
+  },
+  {
     projectName: 'Todo List',
     projectDescription:
       'Projeto de to do list na qual é possível incluir items, remover items e filtrar items',
@@ -41,13 +48,30 @@ const vanillaJavascript = [
     siteLink: 'https://weather-app.elraphael.com.br/',
     githubLink: 'https://github.com/raphaelprsilva/weather-app',
   },
+];
+
+const reactProjects = [
   {
-    projectName: 'Madruga Shopping Cart',
+    projectName: 'Madruga Tunes',
     projectDescription:
-      'Projeto na qual a pessoa usuária pode adicionar items ao carrinho e a soma dos valores é computada',
-    siteLink: 'https://madruga-shopping.elraphael.com.br/',
-    githubLink: 'https://github.com/raphaelprsilva/shopping-cart',
+      'Projeto de música, na qual o usuário pode pesquisar por cantores, salvar uma playlist e escutar um trecho da música favorita"',
+    siteLink: 'https://www.madruga-tunes.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/madruga-tunes',
+  },
+  {
+    projectName: 'Solar System',
+    projectDescription:
+      'Um simples projeto feito em React, na qual é possível visualizar os planetas do sistema solar e as missões realizadas ao espaço',
+    siteLink: 'https://solar-system.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/solar-system',
+  },
+  {
+    projectName: 'Jogo Trunfo - Heroínas Brasileiras',
+    projectDescription:
+      'Projeto baseado no jogo Trunfo, com a temática "Heroínas Brasileiras - Mulheres que fizeram e fazem história no Brasil"',
+    siteLink: 'https://www.heroinas-brasileiras.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/heroinas-brasileiras',
   },
 ];
 
-export { vanillaJavascript };
+export { vanillaJavascript, reactProjects };
