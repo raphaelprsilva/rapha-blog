@@ -7,7 +7,7 @@ export const DetailsWrapper = styled.details`
   cursor: pointer;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  background-color: #1f3141;
+  background: var(--mediumBackground);
   color: var(--white);
   font-weight: bolder;
   transition: 0.3s;
@@ -16,6 +16,7 @@ export const DetailsWrapper = styled.details`
 export const SummaryWrapper = styled.summary`
   padding-left: 0.75rem;
   transition: 0.3s;
+  color: var(--texts);
 
   :hover {
     color: var(--highlight);
