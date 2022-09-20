@@ -30,7 +30,7 @@ function Seo({ description, lang, meta, title, image }) {
   const defaultTitle = site.siteMetadata?.title;
 
   const url = site.siteMetadata.siteUrl;
-  const ogImage = `${url}${image || '/assets/img/cover.png'}`;
+  const ogImage = `${url}${image || '/assets/img/cover.jpg'}`;
 
   return (
     <Helmet
