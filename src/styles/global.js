@@ -80,6 +80,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body.dark {
+    --contrast: #f21fa1;
     --borders: #38444d;
     --texts: #8899a6;
     --postColor: #fff;
@@ -91,6 +92,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body.light {
+    --contrast: #f21fa1;
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;

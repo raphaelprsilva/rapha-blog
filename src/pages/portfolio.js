@@ -35,10 +35,17 @@ const Portfolio = () => {
           </h3>
           <div>
             {vanillaJavascript.map(
-              ({ projectName, projectDescription, siteLink, githubLink }) => (
+              ({
+                projectName,
+                projectDescription,
+                siteLink,
+                githubLink,
+                stacks,
+              }) => (
                 <Accordion
                   key={projectName}
                   projectName={projectName}
+                  stacks={stacks}
                   projectDescription={projectDescription}
                   projectSiteLink={siteLink}
                   githubLink={githubLink}
@@ -51,10 +58,17 @@ const Portfolio = () => {
           <h3 id="react">Front-end (React)</h3>
           <div>
             {reactProjects.map(
-              ({ projectName, projectDescription, siteLink, githubLink }) => (
+              ({
+                projectName,
+                projectDescription,
+                siteLink,
+                githubLink,
+                stacks,
+              }) => (
                 <Accordion
                   key={projectName}
                   projectName={projectName}
+                  stacks={stacks}
                   projectDescription={projectDescription}
                   projectSiteLink={siteLink}
                   githubLink={githubLink}

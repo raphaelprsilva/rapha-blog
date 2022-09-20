@@ -21,6 +21,17 @@ export const SummaryWrapper = styled.summary`
   :hover {
     color: var(--highlight);
   }
+
+  span:not(:first-child) {
+    padding-right: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--contrast);
+    font-weight: lighter;
+  }
+
+  span:nth-child(2) {
+    padding-left: 1.25rem;
+  }
 `;
 
 export const ProjectInfos = styled.div`

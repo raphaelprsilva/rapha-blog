@@ -5,12 +5,18 @@ import './accordion.css';
 
 const Accordion = ({
   projectName,
+  stacks,
   projectDescription,
   projectSiteLink,
   githubLink,
 }) => (
   <S.DetailsWrapper activeClassName="active">
-    <S.SummaryWrapper>{projectName}</S.SummaryWrapper>
+    <S.SummaryWrapper>
+      <span>{projectName}</span>
+      {stacks.map((stack) => (
+        <span key={stack}>• {stack}</span>
+      ))}
+    </S.SummaryWrapper>
     <S.ProjectInfos>
       <p>{projectDescription}</p>
       <ul>
