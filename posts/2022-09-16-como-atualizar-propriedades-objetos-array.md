@@ -1,7 +1,7 @@
 ---
-date: 2022-09-16 12:57:23
 title: Como atualizar as propriedades de um objeto em um array usando javascript
 description: Um pouco sobre manipulação de objetos em arrays
+date: '2022-09-16 12:57:23'
 category: JS
 background: '#EFD81D'
 ---
