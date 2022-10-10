@@ -59,6 +59,20 @@ const vanillaJavascript = [
 
 const reactProjects = [
   {
+    projectName: 'Madruga Online Store',
+    stacks: ['React', 'styled-components', 'react-icons'],
+    projectDescription: 'Projeto simplificado de uma loja online, na qual é possível adicionar itens ao carrinho, remover e visualizar o valor total da compra',
+    siteLink: 'https://www.madruga-store.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/madruga-online-store',
+  },
+  {
+    projectName: 'Pokedex RTL',
+    stacks: ['React', 'react-testing-library'],
+    projectDescription: 'Projeto de uma pokedex, na qual é possível visualizar os pokemons e seus detalhes. O objetivo do projeto foi praticar testes com react-testing-library!',
+    siteLink: 'https://pokedex-rtl.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/pokedex-rtl',
+  },
+  {
     projectName: 'Madruga Tunes',
     stacks: ['React', 'styled-components', 'styled-icons'],
     projectDescription:

@@ -23,7 +23,7 @@ const Portfolio = () => {
             <a href="#html-css-js">HTML, CSS e Javascript</a>
           </li>
           <li>
-            <a href="#react">Front-end (React)</a>
+            <a href="#react">Front-end (React, RTL)</a>
           </li>
           <li>Testes</li>
           <li>Banco de Dados</li>
@@ -55,7 +55,7 @@ const Portfolio = () => {
           </div>
         </section>
         <section>
-          <h3 id="react">Front-end (React)</h3>
+          <h3 id="react">Front-end (React, RTL)</h3>
           <div>
             {reactProjects.map(
               ({
