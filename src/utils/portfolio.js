@@ -59,6 +59,13 @@ const vanillaJavascript = [
 
 const reactProjects = [
   {
+    projectName: 'Madruga Wallet',
+    stacks: ['React', 'Redux', 'redux-thunk', 'styled-compoents'],
+    projectDescription: 'Projeto de uma carteira de controle de gastos',
+    siteLink: 'https://www.madruga-wallet.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/madruga-wallet',
+  },
+  {
     projectName: 'Madruga Online Store',
     stacks: ['React', 'styled-components', 'react-icons'],
     projectDescription: 'Projeto simplificado de uma loja online, na qual é possível adicionar itens ao carrinho, remover e visualizar o valor total da compra',
