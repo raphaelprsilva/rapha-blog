@@ -59,6 +59,13 @@ const vanillaJavascript = [
 
 const reactProjects = [
   {
+    projectName: 'Madruga Trivia Game',
+    stacks: ['React', 'Redux', 'redux-thunk', 'styled-compoents'],
+    projectDescription: 'Projeto desenvolvido em React de um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano)',
+    siteLink: 'https://www.madruga-game.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/madruga-trivia-game',
+  },
+  {
     projectName: 'Madruga Wallet',
     stacks: ['React', 'Redux', 'redux-thunk', 'styled-compoents'],
     projectDescription: 'Projeto de uma carteira de controle de gastos',
