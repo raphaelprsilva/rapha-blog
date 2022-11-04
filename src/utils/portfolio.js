@@ -59,9 +59,18 @@ const vanillaJavascript = [
 
 const reactProjects = [
   {
+    projectName: 'Star Wars Planets',
+    stacks: ['React', 'Hooks', 'styled-components', 'contextAPI'],
+    projectDescription:
+      'Projeto de uma página com informações e filtros sobre planetas do Star Wars',
+    siteLink: 'https://www.star-wars-planets.elraphael.com.br/',
+    githubLink: 'https://github.com/raphaelprsilva/star-wars-planets',
+  },
+  {
     projectName: 'Madruga Trivia Game',
     stacks: ['React', 'Redux', 'redux-thunk', 'styled-compoents'],
-    projectDescription: 'Projeto desenvolvido em React de um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano)',
+    projectDescription:
+      'Projeto desenvolvido em React de um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano)',
     siteLink: 'https://www.madruga-game.elraphael.com.br/',
     githubLink: 'https://github.com/raphaelprsilva/madruga-trivia-game',
   },
@@ -75,14 +84,16 @@ const reactProjects = [
   {
     projectName: 'Madruga Online Store',
     stacks: ['React', 'styled-components', 'react-icons'],
-    projectDescription: 'Projeto simplificado de uma loja online, na qual é possível adicionar itens ao carrinho, remover e visualizar o valor total da compra',
+    projectDescription:
+      'Projeto simplificado de uma loja online, na qual é possível adicionar itens ao carrinho, remover e visualizar o valor total da compra',
     siteLink: 'https://www.madruga-store.elraphael.com.br/',
     githubLink: 'https://github.com/raphaelprsilva/madruga-online-store',
   },
   {
     projectName: 'Pokedex RTL',
     stacks: ['React', 'react-testing-library'],
-    projectDescription: 'Projeto de uma pokedex, na qual é possível visualizar os pokemons e seus detalhes. O objetivo do projeto foi praticar testes com react-testing-library!',
+    projectDescription:
+      'Projeto de uma pokedex, na qual é possível visualizar os pokemons e seus detalhes. O objetivo do projeto foi praticar testes com react-testing-library!',
     siteLink: 'https://pokedex-rtl.elraphael.com.br/',
     githubLink: 'https://github.com/raphaelprsilva/pokedex-rtl',
   },
