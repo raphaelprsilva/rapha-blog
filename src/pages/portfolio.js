@@ -30,7 +30,7 @@ const Portfolio = () => {
             <a href="#react">Front-end (React, RTL)</a>
           </li>
           <li href="#back-end">
-            <a href="#back-end">Back-end (Node, Express, MySQL)</a>
+            <a href="#back-end">Back-end (Docker, Node.js e Typescript)</a>
           </li>
           <li>Testes</li>
           <li>Banco de Dados</li>
