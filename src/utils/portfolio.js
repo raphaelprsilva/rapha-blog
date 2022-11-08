@@ -123,4 +123,15 @@ const reactProjects = [
   },
 ];
 
-export { vanillaJavascript, reactProjects };
+const backEndProjects = [
+  {
+    projectName: 'Docker todo list',
+    stacks: ['Docker', 'docker-compose', 'Dockerfile'],
+    projectDescription:
+      'Projeto full-stack dockerizado de uma todo list, na qual é possível adicionar, remover e filtrar items',
+    siteLink: 'https://github.com/raphaelprsilva/docker-todo-list',
+    githubLink: 'https://github.com/raphaelprsilva/docker-todo-list',
+  },
+];
+
+export { vanillaJavascript, reactProjects, backEndProjects };

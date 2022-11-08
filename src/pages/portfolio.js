@@ -3,7 +3,11 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/seo';
 import { MainContent } from '../styles/base';
-import { vanillaJavascript, reactProjects } from '../utils/portfolio';
+import {
+  vanillaJavascript,
+  reactProjects,
+  backEndProjects,
+} from '../utils/portfolio';
 
 import Accordion from '../components/Accordion';
 
@@ -25,9 +29,11 @@ const Portfolio = () => {
           <li>
             <a href="#react">Front-end (React, RTL)</a>
           </li>
+          <li href="#back-end">
+            <a href="#back-end">Back-end (Node, Express, MySQL)</a>
+          </li>
           <li>Testes</li>
           <li>Banco de Dados</li>
-          <li>Backend (Node.js e Typescript)</li>
         </ul>
         <section>
           <h3 id="html-css-js">
@@ -58,6 +64,27 @@ const Portfolio = () => {
           <h3 id="react">Front-end (React, RTL)</h3>
           <div>
             {reactProjects.map(
+              ({
+                projectName,
+                projectDescription,
+                siteLink,
+                githubLink,
+                stacks,
+              }) => (
+                <Accordion
+                  key={projectName}
+                  projectName={projectName}
+                  stacks={stacks}
+                  projectDescription={projectDescription}
+                  projectSiteLink={siteLink}
+                  githubLink={githubLink}
+                />
+              )
+            )}
+          </div>
+          <div>
+            <h3 id="back-end">Back-end (Docker, Node.js e Typescript)</h3>
+            {backEndProjects.map(
               ({
                 projectName,
                 projectDescription,
