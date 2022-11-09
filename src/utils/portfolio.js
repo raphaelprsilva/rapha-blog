@@ -134,4 +134,15 @@ const backEndProjects = [
   },
 ];
 
-export { vanillaJavascript, reactProjects, backEndProjects };
+const databasesProjects = [
+  {
+    projectName: 'MySQL - All For One',
+    stacks: ['MySQL', 'SQL'],
+    projectDescription:
+      'Projeto de um banco de dados relacional, na qual é possível visualizar os dados de uma locadora de filmes',
+    siteLink: 'https://github.com/raphaelprsilva/mysql-all-for-one',
+    githubLink: 'https://github.com/raphaelprsilva/mysql-all-for-one',
+  },
+];
+
+export { vanillaJavascript, reactProjects, backEndProjects, databasesProjects };

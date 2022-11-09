@@ -7,6 +7,7 @@ import {
   vanillaJavascript,
   reactProjects,
   backEndProjects,
+  databasesProjects,
 } from '../utils/portfolio';
 
 import Accordion from '../components/Accordion';
@@ -29,11 +30,13 @@ const Portfolio = () => {
           <li>
             <a href="#react">Front-end (React, RTL)</a>
           </li>
+          <li>
+            <a href="#databases">Banco de Dados (MySQL e MongoDB)</a>
+          </li>
           <li href="#back-end">
             <a href="#back-end">Back-end (Docker, Node.js e Typescript)</a>
           </li>
           <li>Testes</li>
-          <li>Banco de Dados</li>
         </ul>
         <section>
           <h3 id="html-css-js">
@@ -64,6 +67,27 @@ const Portfolio = () => {
           <h3 id="react">Front-end (React, RTL)</h3>
           <div>
             {reactProjects.map(
+              ({
+                projectName,
+                projectDescription,
+                siteLink,
+                githubLink,
+                stacks,
+              }) => (
+                <Accordion
+                  key={projectName}
+                  projectName={projectName}
+                  stacks={stacks}
+                  projectDescription={projectDescription}
+                  projectSiteLink={siteLink}
+                  githubLink={githubLink}
+                />
+              )
+            )}
+          </div>
+          <div>
+            <h3 id="databases">Banco de Dados (MySQL e MongoDB)</h3>
+            {databasesProjects.map(
               ({
                 projectName,
                 projectDescription,
