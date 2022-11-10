@@ -143,6 +143,14 @@ const databasesProjects = [
     siteLink: 'https://github.com/raphaelprsilva/mysql-all-for-one',
     githubLink: 'https://github.com/raphaelprsilva/mysql-all-for-one',
   },
+  {
+    projectName: 'MySQL - One For All',
+    stacks: ['MySQL', 'SQL'],
+    projectDescription:
+      'Projeto de MySQL onde, tendo um conjunto de dados "soltos", foi possível simular como seria, num cenário real, a normalização e criação de um banco de dados de uma empresa de streaming de música.',
+    siteLink: 'https://github.com/raphaelprsilva/mysql-one-for-all',
+    githubLink: 'https://github.com/raphaelprsilva/mysql-one-for-all',
+  },
 ];
 
 export { vanillaJavascript, reactProjects, backEndProjects, databasesProjects };
