@@ -132,6 +132,14 @@ const backEndProjects = [
     siteLink: 'https://github.com/raphaelprsilva/docker-todo-list',
     githubLink: 'https://github.com/raphaelprsilva/docker-todo-list',
   },
+  {
+    projectName: 'Talker Manager API',
+    stacks: ['NodeJS', 'Express', 'fs', 'Swagger', 'express-async-erros'],
+    projectDescription:
+      'API de gerenciamento de palestrantes onde é possíble criar, ler, atualizar e deletar palestrantes',
+    siteLink: 'https://github.com/raphaelprsilva/talker-manager',
+    githubLink: 'https://github.com/raphaelprsilva/talker-manager',
+  },
 ];
 
 const databasesProjects = [
