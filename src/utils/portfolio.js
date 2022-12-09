@@ -140,6 +140,13 @@ const backEndProjects = [
     siteLink: 'https://github.com/raphaelprsilva/talker-manager',
     githubLink: 'https://github.com/raphaelprsilva/talker-manager',
   },
+  {
+    projectName: 'Store Manager API',
+    stacks: ['NodeJS', 'Express', 'Jest', 'chai', 'sinon', 'Swagger', 'Joi'],
+    projectDescription: 'API de gerenciamento de uma loja virtual',
+    siteLink: 'https://github.com/raphaelprsilva/store-manager',
+    githubLink: 'https://github.com/raphaelprsilva/store-manager',
+  },
 ];
 
 const databasesProjects = [
