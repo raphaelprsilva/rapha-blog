@@ -147,6 +147,20 @@ const backEndProjects = [
     siteLink: 'https://github.com/raphaelprsilva/store-manager',
     githubLink: 'https://github.com/raphaelprsilva/store-manager',
   },
+  {
+    projectName: 'Blogs API',
+    stacks: ['NodeJS', 'Express', 'Jest', 'chai', 'sinon', 'Swagger', 'Joi'],
+    projectDescription: 'API de um blog, na qual é possível criar, ler, atualizar e deletar posts',
+    siteLink: 'https://github.com/raphaelprsilva/blog-api',
+    githubLink: 'https://github.com/raphaelprsilva/blog-api',
+  },
+  {
+    projectName: 'Trybers and Dragons',
+    stacks: ['NodeJS', 'Typescript'],
+    projectDescription: 'Simulação de um jogo RPG onde é possível criar personagens e batalhar contra dragões',
+    siteLink: 'https://github.com/raphaelprsilva/trybers-and-dragons',
+    githubLink: 'https://github.com/raphaelprsilva/trybers-and-dragons',
+  },
 ];
 
 const databasesProjects = [
